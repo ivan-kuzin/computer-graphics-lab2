@@ -1,0 +1,56 @@
+body{
+  font-family: Verdana;
+}
+.canvas{
+  position: relative;
+}
+.canvas .canvas_bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #eae9e9;
+  width:100%;
+  height:100%;
+  z-index: 1;
+}
+
+
+#myCanvas {
+  position: relative;
+  z-index: 2;
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+.move-mode {
+    width: 482px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #ED7C7C;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: center;
+    color:  white;
+}
+
+.work-flow{
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-flow .opacity-range #opacity_range{
+  writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: 500px;
+    padding: 0 5px;
+}
+.work-flow .opacity-range-text{
+  writing-mode: vertical-lr; 
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}

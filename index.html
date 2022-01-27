@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LAB 1</title>
+</head>
+<body>
+    <div class="work-flow">
+      <div class="canvas">
+        <canvas id="myCanvas" width="500px" height="500px"></canvas>
+        <div class="canvas_bg"></div>
+      </div>
+      <div class="opacity-range" >
+        <input id="opacity_range" type="range" min="0" max="100" step="10" value="90" orient="vertical"> 
+      </div>
+      <div class="opacity-range-text">
+        Видимость 
+        <span id="opacity_range_value">90</span>%
+      </div>
+    </div>
+<div class="move-mode">Автоматическое движение</div>
+    <script src="js/main.js"></script> 
+</body>
+</html>
